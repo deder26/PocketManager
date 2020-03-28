@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/listTime"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="hh:mm
+                      dd/mm/yyyy"
+        />
+
+    <TextView
+        android:id="@+id/listDetails"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@id/listTime"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Details" />
+
+    <TextView
+        android:id="@+id/listTk"
+        android:layout_width="62dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/listDetails"
+        android:text="TK" />
+
+</RelativeLayout>

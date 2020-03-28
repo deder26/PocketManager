@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#828AC7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="bottom"
+        android:text="My Balance"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/remainBalance"
+        android:layout_width="333dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/setBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Balance"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="setBalance"
+        />
+    <Button
+        android:id="@+id/myExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Expense"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="myExpense"
+        />
+
+</LinearLayout>

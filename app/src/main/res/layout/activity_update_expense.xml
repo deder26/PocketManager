@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddExpense">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Detail"
+        android:textColor="#000"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/updateDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write Item's Detail"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:textColor="#000"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/updateCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write Item's Cost"
+        android:inputType="number"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:padding="10dp"
+        android:onClick="AddDetailListView"
+        />
+
+
+</LinearLayout>
